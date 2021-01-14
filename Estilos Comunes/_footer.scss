@@ -1,0 +1,65 @@
+footer {
+  background-color: $fondoFooter !important;
+  padding: 15px !important;
+  color: $blanco !important;
+
+  ul {
+    list-style: none;
+    text-align: left !important;
+
+    li {
+      a {
+        padding: 15px !important;
+        color: $blanco !important;
+      }
+    }
+  }
+}
+
+#lineaBlanca {
+  border-color: $blanco;
+}
+
+#derechos {
+  color: $blanco;
+  justify-content: flex-end !important;
+  margin-top: 40px !important;
+  margin-right: 30px !important;
+
+  i {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}
+
+#idiomas {
+  ul {
+    li {
+      a {
+        margin-right: 100px !important;
+        margin-left: 100px !important;
+      }
+    }
+  }
+}
+
+#infor {
+  ul {
+    li {
+      a {
+        margin-right: 100px !important;
+        margin-left: 100px !important;
+      }
+    }
+  }
+}
+
+.idiomasIcon {
+  width: $sizeiconosIdioma;
+}
+
+
+#cuerpo {
+  margin-top: 70px !important;
+  margin-bottom: 100px !important;
+}

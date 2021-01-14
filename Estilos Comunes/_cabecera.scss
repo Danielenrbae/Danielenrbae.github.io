@@ -1,0 +1,26 @@
+
+.cabecera {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.barraNavegacion {
+  margin-top: 20px;
+  background-color: $fondoMenu;
+
+  li {
+    a {
+      color: $blanco !important;
+      border: 0.4px solid $blanco;
+      border-top: none;
+      border-bottom: none;
+      border-left: none;
+      padding: 15px !important;
+    }
+
+    a:hover {
+      background-color: $fondoMenuHover;
+    }
+  }
+}
