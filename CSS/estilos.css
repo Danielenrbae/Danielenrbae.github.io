@@ -23,6 +23,14 @@
   margin-left: 95px;
   cursor: pointer; }
 
+.breadcrumb {
+  margin-top: 50px !important;
+  background-color: whitesmoke; }
+  .breadcrumb a {
+    text-decoration: none !important;
+    font-weight: bold;
+    color: #6ca6a4 !important; }
+
 footer {
   background-color: #426665 !important;
   padding: 15px !important;
@@ -56,5 +64,3 @@ footer {
 
 .idiomasIcon {
   width: 24px; }
-
-/*# sourceMappingURL=estilos.css.map */

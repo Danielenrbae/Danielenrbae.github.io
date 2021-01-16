@@ -1,0 +1,80 @@
+@import 'variables';
+
+.row {
+  margin-top: 20px !important;
+}
+
+#filabusqueda {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center;
+}
+
+
+.cajaImg2 {
+  width: 20%;
+}
+
+.carrito {
+  cursor: pointer;
+}
+
+#product {
+  margin-top: 40px !important;
+}
+
+#registro {
+  width: 50%;
+}
+
+#iniciosesion {
+  width: 50%;
+}
+
+input {
+  display: flex;
+}
+
+label {
+  display: flex;
+  span {
+    color: red;
+  }
+  a {
+    display: flex;
+  }
+}
+
+#entrar {
+  background-color: $colorIniciarSesion;
+  border-color: $colorIniciarSesion;
+  font-weight: bold;
+}
+
+#entrar:hover{
+  cursor: pointer;
+  background-color: $fondoMenuHover;
+}
+
+#entrarGoogle {
+  color: black;
+  background-color: white;
+  border-color: $colorIniciarSesion;
+  font-weight: bold;
+}
+
+
+#recuerdame {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nombre {
+  display: flex;
+  align-self: flex-end;
+}
+
+#panel {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+  }

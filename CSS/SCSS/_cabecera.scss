@@ -32,3 +32,15 @@
   margin-left: 95px;
   cursor: pointer;
 }
+
+.breadcrumb {
+  margin-top: 50px !important;
+  background-color: whitesmoke;
+
+  a{
+      text-decoration: none !important;
+      font-weight: bold;
+      color: rgba(108, 166, 164, 65) !important ;
+  }
+
+}
