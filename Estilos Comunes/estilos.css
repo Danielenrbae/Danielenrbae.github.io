@@ -1,91 +1,60 @@
 .cabecera {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+  justify-content: flex-start;
+  align-items: center; }
 
 .barraNavegacion {
   margin-top: 20px;
-  background-color: #6ca6a4;
-}
-
-.barraNavegacion li a {
-  color: white !important;
-  border: 0.4px solid white;
-  border-top: none;
-  border-bottom: none;
-  border-left: none;
-  padding: 15px !important;
-}
-
-.barraNavegacion li a:hover {
-  background-color: #64c4bd;
-}
-
-footer {
-  background-color: #426665 !important;
-  padding: 15px !important;
-  color: white !important;
-}
-
-footer ul {
-  list-style: none;
-  text-align: left !important;
-}
-
-footer ul li a {
-  padding: 15px !important;
-  color: white !important;
-}
-
-#lineaBlanca {
-  border-color: white;
-}
-
-#derechos {
-  color: white;
-  -webkit-box-pack: end !important;
-      -ms-flex-pack: end !important;
-          justify-content: flex-end !important;
-  margin-top: 40px !important;
-  margin-right: 30px !important;
-}
-
-#derechos i {
-  margin-left: 10px !important;
-  margin-right: 10px !important;
-}
-
-#idiomas ul li a {
-  margin-right: 100px !important;
-  margin-left: 100px !important;
-}
-
-#infor ul li a {
-  margin-right: 100px !important;
-  margin-left: 100px !important;
-}
-
-.idiomasIcon {
-  width: 24px;
-}
-
-#cuerpo {
-  margin-top: 70px !important;
-  margin-bottom: 100px !important;
-}
+  background-color: #6ca6a4; }
+  .barraNavegacion li a {
+    color: white !important;
+    border: 0.4px solid white;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding: 15px !important; }
+  .barraNavegacion li a:hover {
+    background-color: #64c4bd; }
 
 .cajaImg {
   width: 20%;
   height: 20%;
   margin-right: 20px;
   margin-left: 95px;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
+footer {
+  background-color: #426665 !important;
+  padding: 15px !important;
+  color: white !important; }
+  footer ul {
+    list-style: none;
+    text-align: left !important; }
+    footer ul li a {
+      padding: 15px !important;
+      color: white !important; }
+
+#lineaBlanca {
+  border-color: white; }
+
+#derechos {
+  color: white;
+  justify-content: flex-end !important;
+  margin-top: 40px !important;
+  margin-right: 30px !important; }
+  #derechos i {
+    margin-left: 10px !important;
+    margin-right: 10px !important; }
+
+#idiomas ul li a {
+  margin-right: 100px !important;
+  margin-left: 100px !important; }
+
+#infor ul li a {
+  margin-right: 100px !important;
+  margin-left: 100px !important; }
+
+.idiomasIcon {
+  width: 24px; }
+
 /*# sourceMappingURL=estilos.css.map */

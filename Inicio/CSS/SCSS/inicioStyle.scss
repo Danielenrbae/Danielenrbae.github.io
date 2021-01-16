@@ -1,0 +1,34 @@
+.container-fluid {
+    margin-top: 20px !important;
+    font-family: liberation-serif !important;
+  }
+
+.breadcrumb {
+    margin-top: 50px !important;
+    background-color: whitesmoke;
+
+    a{
+        text-decoration: none !important;
+        font-weight: bold;
+        color: rgba(108, 166, 164, 65) !important ;
+    }
+
+  }
+
+  .row {
+    margin-top: 20px !important;
+  }
+
+  #foto {
+    display: flex;
+    align-items: center;
+  }
+
+  #cuerpo {
+    margin-top: 50px !important;
+    margin-bottom: 70px !important;
+  }
+  
+  #conocenos{
+      margin-top: 70px !important;
+  }
