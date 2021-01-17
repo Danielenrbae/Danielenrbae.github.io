@@ -1,0 +1,32 @@
+.row {
+  margin-top: 20px !important; }
+
+#registro {
+  width: 50%; }
+
+#iniciosesion {
+  width: 50%; }
+
+input {
+  display: flex; }
+
+label {
+  display: flex; }
+
+label span {
+  color: red; }
+
+label a {
+  display: flex; }
+
+#crearcuenta {
+  background-color: #6ca6a4;
+  border-color: #6ca6a4;
+  font-weight: bold; }
+
+#crearcuenta:hover {
+  background-color: #64c4bd; }
+
+#panel {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important; }

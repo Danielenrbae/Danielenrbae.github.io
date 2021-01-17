@@ -1,0 +1,41 @@
+@import "variables";
+
+.row {
+  margin-top: 20px !important;
+}
+
+#registro {
+  width: 50%;
+}
+
+#iniciosesion {
+  width: 50%;
+}
+
+input {
+  display: flex;
+}
+label {
+  display: flex;
+}
+label span {
+  color: red;
+}
+
+label a {
+  display: flex;
+}
+#crearcuenta {
+  background-color: $colorIniciarSesion;
+  border-color: $colorIniciarSesion;
+  font-weight: bold;
+}
+
+#crearcuenta:hover {
+    background-color: $fondoMenuHover;
+}
+
+#panel {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
