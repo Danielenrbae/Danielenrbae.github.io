@@ -1,0 +1,136 @@
+@charset "UTF-8";
+.barraNavegacionTienda {
+  background-color: #85ccca;
+  border-radius: 5px; }
+
+#barraTienda ul li a {
+  color: white !important;
+  border: 0.4px solid white;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  padding: 15px !important; }
+#barraTienda ul li a:hover {
+  background-color: #64c4bd; }
+
+.entra {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px; }
+
+.entra svg {
+  margin-left: 5px;
+  margin-right: 10px; }
+
+.row {
+  margin-top: 20px !important; }
+
+#filabusqueda {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center; }
+
+.carrito {
+  cursor: pointer; }
+
+.cajaImg2 {
+  width: 20%;
+  cursor: pointer; }
+
+.carrito:hover {
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: whitesmoke; }
+
+#product {
+  margin-top: 40px !important; }
+
+aside ul li a {
+  color: gray !important;
+  padding: 3px !important; }
+aside ul li a:hover {
+  background-color: white; }
+
+#slide {
+  margin-right: 5px; }
+
+#title {
+  margin-bottom: 10px; }
+
+.listadoProductos {
+  margin-bottom: 60px !important; }
+
+.imgcab {
+  margin-bottom: 10px !important; }
+
+.rojo {
+  color: red !important;
+  margin: 10px; }
+
+.verde {
+  color: green !important; }
+
+.tachado {
+  text-decoration: line-through; }
+
+.card-title {
+  text-align: center; }
+
+.card-text {
+  text-align: center; }
+
+#tituloOpinion {
+  text-align: center;
+  margin-bottom: 50px !important; }
+
+#opiniones {
+  margin-bottom: 100px !important; }
+
+#pagina {
+  margin-bottom: 40px !important; }
+
+.page-item {
+  text-align: center;
+  border-radius: 4px !important;
+  width: 100px !important; }
+
+.page-link {
+  font-size: 25px !important;
+  padding: 50px !important; }
+
+.page-item.active .page-link {
+  background-color: #8ae5d1 !important;
+  border: none !important; }
+
+#pagina ul li a {
+  padding: 3px !important;
+  color: gray !important; }
+
+.estrella {
+  color: #f5ec42 !important;
+  margin-left: 5px !important; }
+
+.cartas {
+  margin: 8px !important; }
+
+.card-header {
+  text-align: center;
+  font-weight: bold; }
+
+.card-body {
+  text-align: center !important;
+  background-color: azure;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important; }
+
+#productoInteres {
+  margin-bottom: 60px !important; }
+
+.centrar {
+  display: flex;
+  justify-content: center; }
+
+.max-tamaño {
+  max-width: 200px;
+  max-height: 150px;
+  padding-top: 10px; }
