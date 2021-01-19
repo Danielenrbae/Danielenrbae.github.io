@@ -9,8 +9,8 @@
   ul {
     li {
       a {
-        color: white !important;
-        border: 0.4px solid white;
+        color: $colorEnlaceBarra !important;
+        border: 0.4px solid $borderEnlaceBarra;
         border-top: none;
         border-bottom: none;
         border-left: none;
@@ -18,7 +18,7 @@
       }
 
       a:hover {
-        background-color: rgba(100, 196, 189, 77);
+        background-color: $colorFondoBarraHover;
       }
     }
   }
@@ -59,7 +59,7 @@
   border-radius: 8px;
 
   cursor: pointer;
-  background-color: whitesmoke;
+  background-color: $colorFondoCarritoHover;
 }
 
 #product {
@@ -70,12 +70,12 @@ aside {
   ul {
     li {
       a {
-        color: gray !important;
+        color: $colorAsideEnlace !important;
         padding: 3px !important;
       }
 
       a:hover {
-        background-color: white;
+        background-color: $colorFondoAsideEnlace;
       }
     }
   }
@@ -98,12 +98,12 @@ aside {
 }
 
 .rojo {
-  color: red !important;
+  color: $rojo !important;
   margin: 10px;
 }
 
 .verde {
-  color: green !important;
+  color: $verde !important;
 }
 .tachado {
   text-decoration: line-through;
@@ -142,13 +142,13 @@ aside {
 }
 
 .page-item.active .page-link {
-  background-color: rgba(138, 229, 209, 90) !important;
+  background-color: $colorFondoPageLink !important;
   border: none !important;
 }
 
 #pagina ul li a {
   padding: 3px !important;
-  color: gray !important;
+  color: $gris !important;
 }
 
 .estrella {
@@ -166,7 +166,7 @@ aside {
 }
 .card-body {
   text-align: center !important;
-  background-color: azure;
+  background-color: $colorFondoCardBody;
   border-bottom-left-radius: 10px !important;
   border-bottom-right-radius: 10px !important;
 }

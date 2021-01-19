@@ -1,60 +1,64 @@
+@import "variables";
+#contenidoCesta {
+  margin-top: 70px !important;
+}
 
-  #contenidoCesta {
-    margin-top: 70px !important;
-  }
-  
-  #contenidoCesta h2 {
-    text-align: center !important;
-  }
-  
-  #inicioContenidoCesta {
-    margin-top: 70px !important;
-    margin-bottom: 70px !important;
-  }
-  
-  #infoCesta {
-    padding: 30px !important;
-    border: 1px solid lightgray !important;
-    border-radius: 10px !important;
-    padding-right: 40px !important;
-  }
-  
-  #codigoPromocional {
-    margin-top: 40px !important;
-    padding: 30px !important ;
-  }
-  
-  #botonPromocional_1 button {
+#contenidoCesta h2 {
+  text-align: center !important;
+}
+
+#inicioContenidoCesta {
+  margin-top: 70px !important;
+  margin-bottom: 70px !important;
+}
+
+#infoCesta {
+  padding: 30px !important;
+  border: 1px solid $borderCestaColor !important;
+  border-radius: 10px !important;
+  padding-right: 40px !important;
+}
+
+#codigoPromocional {
+  margin-top: 40px !important;
+  padding: 30px !important ;
+}
+
+#botonPromocional_1 {
+  button {
     width: 100% !important;
   }
-  #botonPromocional_2 button {
+}
+#botonPromocional_2 {
+  button {
     width: 100% !important;
     margin-top: 5px !important;
   }
+}
 
-  #imagenesTarjetas img{
+#imagenesTarjetas {
+  img {
     margin: auto !important;
-  
   }
+}
 
-  
-  .estrella {
-    color: rgba(245, 236, 66, 96) !important;
-    margin-left: 5px !important;
-  }
+.estrella {
+  color: $colorEstrella !important;
+  margin-left: 5px !important;
+}
 
-  .cartas {
-    margin: 8px !important;
-  }
-  
-  .card-header {
-    text-align: center;
-    font-weight: bold;
-  }
-  .card-body {
-    text-align: center !important;
-  }
-  
-  #productoInteres {
-    margin-bottom: 60px !important;
-  }
+.cartas {
+  margin: 8px !important;
+}
+
+.card-header {
+  text-align: center;
+  font-weight: bold;
+}
+.card-body {
+  text-align: center !important;
+}
+
+#productoInteres {
+  margin-bottom: 60px !important;
+}

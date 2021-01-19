@@ -1,8 +1,38 @@
-
+//COLORES
 $blanco: white;
+$rojo: red;
+$verde: green;
+$gris: gray;
+$celeste: azure;
+$colorAzulVerde: rgba(100, 196, 189, 77);
+
+
+//FONDOS
 $fondoMenu: #6ca6a4;
-$fondoMenuHover: rgba(100, 196, 189, 77);
+$fondoMenuHover: $colorAzulVerde ;
 $fondoFooter: rgba(66, 102, 101, 40);
+$colorFondoGoogle: $blanco;
+$colorfondoActiveCard: rgba(133, 204, 202, 0.5);
+$colorFondoExtra:lightgrey;
+$colorFondoBarraHover: $colorAzulVerde;
+$colorFondoCarritoHover: whitesmoke;
+$colorFondoAsideEnlace: $blanco;
+$colorFondoPageLink: rgba(138, 229, 209, 90);
+$colorFondoCardBody: $celeste;
+
+//BORDERS
+$borderEnlaceBarra: $blanco;
+$borderCestaColor: lightgray;
+
+//TAMAÑOS
 $sizeImagenEstandar: 20%;
 $sizeiconosIdioma: 24px;
+
+
+//COLORES LETRA
+$colorAsideEnlace: $gris;
+$colorEnlaceBarra: $blanco;
+$colorFecha: rgba(137, 190, 236, 1);
+$colorEntrarGoogle: black;
+$colorEstrella: rgba(245, 236, 66, 96);
 $colorIniciarSesion: rgba(108, 166, 164, 65);
