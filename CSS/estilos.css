@@ -67,3 +67,14 @@ footer {
 
 .row {
   margin-top: 20px !important; }
+
+.reproductor {
+  width: 200px !important;
+  padding: 5px !important;
+  position: absolute;
+  right: 15px;
+  top: -16px;
+  background-color: rgba(211, 211, 211, 0.493);
+  border-radius: 10px !important; }
+  .reproductor svg {
+    color: #426665; }
