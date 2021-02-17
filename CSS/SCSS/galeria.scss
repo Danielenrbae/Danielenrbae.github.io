@@ -1,0 +1,14 @@
+#galeria {
+  img {
+    width: 720px !important;
+  }
+  #imagen1{
+    filter:sepia(100%);
+  }
+  #imagen8{
+    filter:grayscale(100%);
+  }
+  #imagen15{
+    filter:brightness(150%);
+  }
+}

@@ -1,0 +1,8 @@
+#galeria img {
+  width: 720px !important; }
+#galeria #imagen1 {
+  filter: sepia(100%); }
+#galeria #imagen8 {
+  filter: grayscale(100%); }
+#galeria #imagen15 {
+  filter: brightness(150%); }
