@@ -1,8 +1,29 @@
 #galeria img {
-  width: 720px !important; }
+  width: 720px !important;
+}
 #galeria #imagen1 {
-  filter: sepia(100%); }
+  filter: sepia(100%);
+}
 #galeria #imagen8 {
-  filter: grayscale(100%); }
+  filter: grayscale(100%);
+}
 #galeria #imagen15 {
-  filter: brightness(150%); }
+  filter: brightness(150%);
+}
+.video{
+  top: -10px;
+  position: absolute;
+  min-width: 100%;
+  min-height:100%;
+  width: 90%;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+
+#galeria{
+  margin-bottom: 70px !important;
+  margin-bottom: 100px !important;
+}
+
