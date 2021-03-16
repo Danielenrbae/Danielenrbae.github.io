@@ -8,9 +8,9 @@ Calendar Styling */
   font-size: 2rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .month {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -18,7 +18,7 @@ Calendar Styling */
   ol {
     li {
       float: left;
-      width: 14.28571%;
+      width: 13%;
     }
   }
 
@@ -34,11 +34,7 @@ Calendar Styling */
   .days {
     li {
       border-bottom: 1px solid #eee;
-      min-height: 8rem;
-
-      .date{
-        margin: 0.5rem 0;
-      }
+      min-height: 5rem;
 
       .event{
         font-size: 0.75rem;
@@ -80,8 +76,6 @@ Calendar Styling */
 }
 
 .panel1 {
-  width: 900px;
-  height: 900px;
   border: 1px solid grey;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -90,15 +84,18 @@ Calendar Styling */
 }
 
 .otro-mes {
-  height: 100px;
+  height: 4rem;
   background-color: rgba(133, 204, 202, 0.5);
   color: white;
 }
 
 .date {
-  padding: 10px;
-  margin: 5px !important;
+  padding-left: 3px;
+  margin: 5px;
+  margin-left: -4px !important;
+  margin-right: 5px !important;
   border-radius: 10%;
+  font-size: 0.8rem;
 }
 .panel2 {
   display: flex;

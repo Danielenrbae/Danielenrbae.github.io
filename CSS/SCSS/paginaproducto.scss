@@ -1,3 +1,5 @@
+@import 'variables';
+
 #prodIndivi {
   margin-top: 70px !important;
   margin-bottom: 100px !important;
@@ -130,7 +132,7 @@
 }
 
 .verde {
-  color: $green !important;
+  color: $verde !important;
 }
 .tachado {
   text-decoration: line-through;

@@ -12,7 +12,8 @@
     border-top: none;
     border-bottom: none;
     border-left: none;
-    padding: 15px !important; }
+    padding: 15px !important;
+    font-size: large; }
   .barraNavegacion li a:hover {
     background-color: #64c4bd; }
 
@@ -30,6 +31,10 @@
     text-decoration: none !important;
     font-weight: bold;
     color: #6ca6a4 !important; }
+
+#google_translate_element {
+  display: flex;
+  justify-content: flex-end; }
 
 footer {
   background-color: #426665 !important;
