@@ -8,23 +8,33 @@
 .barraNavegacion {
   margin-top: 20px;
   background-color: $fondoMenu;
-
+  
+div {
+  display: flex;
+  justify-content: center;
+}
 
   li {
     a {
       color: $blanco !important;
-      border: 0.4px solid $blanco;
-      border-top: none;
-      border-bottom: none;
-      border-left: none;
       padding: 15px !important;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
       font-size: large;
+
 }
 
     a:hover {
       background-color: $fondoMenuHover;
     }
   }
+}
+
+.interior{
+  border: 0.4px solid $blanco;
+  border-top: none;
+  border-bottom: none;
+
 }
 
 .cajaImg {
